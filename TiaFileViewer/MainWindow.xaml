@@ -1,0 +1,68 @@
+﻿<Window x:Class="TiaFileViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TiaFileViewer"
+        mc:Ignorable="d"
+        Title="{Binding MainWindowTitle}" Height="600" Width="800" MinWidth="250" MinHeight="250">
+    <Window.DataContext>
+        <local:BindingProperties/>
+    </Window.DataContext>
+    <Grid x:Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer x:Name="scrollViewer" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Auto" Padding="0,0,10,0">
+
+                <StackPanel x:Name="NodesPanel" Orientation="Horizontal">
+                    <StackPanel.Effect>
+                        <DropShadowEffect/>
+                    </StackPanel.Effect>
+                </StackPanel>
+
+        </ScrollViewer>
+        <ListView x:Name="ElementsListView" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5"/>
+        <Button x:Name="FileOpenButton" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Width="35" Height="35" Click="FileOpenButton_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <StackPanel Grid.Column="1">
+                <Image Source="Icons/FileOpen.png" HorizontalAlignment="Center" VerticalAlignment="Center" Width="24" Height="24"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="35" Height="35">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <StackPanel>
+                <Image Source="Icons/Settings.png" HorizontalAlignment="Center" VerticalAlignment="Center" Width="24" Height="24"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="35" Height="35">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <StackPanel>
+                <Image Source="Icons/Compare.png" HorizontalAlignment="Center" VerticalAlignment="Center" Width="24" Height="24"/>
+            </StackPanel>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="35" Height="35">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <StackPanel>
+                <Image Source="Icons/CsvExport.png" HorizontalAlignment="Center" VerticalAlignment="Center" Width="24" Height="24"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>

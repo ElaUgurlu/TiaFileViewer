@@ -1,0 +1,15 @@
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\bin\Debug\TiaFileViewer.exe.config
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\bin\Debug\TiaFileViewer.exe
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\bin\Debug\TiaFileViewer.pdb
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\obj\Debug\TiaFileViewer.csprojResolveAssemblyReference.cache
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\obj\Debug\MainWindow.g.cs
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\obj\Debug\App.g.cs
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\obj\Debug\TiaFileViewer_MarkupCompile.cache
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\obj\Debug\TiaFileViewer_MarkupCompile.lref
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\obj\Debug\MainWindow.baml
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\obj\Debug\TiaFileViewer.g.resources
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\obj\Debug\TiaFileViewer.Properties.Resources.resources
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\obj\Debug\TiaFileViewer.csproj.GenerateResource.Cache
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\obj\Debug\TiaFileViewer.exe
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\obj\Debug\TiaFileViewer.pdb
+D:\Projekte\Grollmus\TiaFileViewer\TiaFileViewer\obj\Debug\GeneratedInternalTypeHelper.g.cs
